@@ -1,0 +1,27 @@
+/*!
+Theme Name: Theme Starter Sassy 11/21/13
+Theme URI: http://wpmmp.bmcc.cuny.edu/~cstein/wordpress
+Author: Michael Rodriguez
+
+Description: Theme using Sass to develop the CSS
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+@import "vars"; //variables we will use throughout the styles.
+@import "reset"; //reset stylesheet
+@import "font-face"; //font-face definitions
+@import "layout"; //This is where we will set
+@import "typography";
+@import "nav";
+@import "featured";
+@import "portfolioitem";
+//@import "typography_thematic";
+
+@import "footer";
+
+
+
+
+

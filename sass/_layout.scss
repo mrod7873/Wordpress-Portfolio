@@ -1,0 +1,37 @@
+/* 
+* 										*  
+*  Major Layout Styling					*
+* 										*  
+*/
+/* apply a border-box layout model to all elements 
+	from http://paulirish.com/2012/box-sizing-border-box-ftw/*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+$page-width:900/16*1em;
+$content-width:720/16*1em;
+$sidebar-width:180/16*1em;
+
+.wrapper{
+	width: $page-width;
+	margin:10/16*1em auto;
+}
+
+.posts{
+	width: $content-width;
+	float: right;
+	/*@media only screen (min-width:$breakpoint-small);
+		width: 100%;
+		float:none;*/
+	
+}
+
+.sidebar{
+	width: $sidebar-width;
+	float: left;
+}
+
+img, video{width: auto; max-width:100%; height:auto; margin:0, auto, 1em;}
+
+footer{
+	clear: both;
+}

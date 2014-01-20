@@ -1,0 +1,22 @@
+
+//Fonts =====================
+$serif: Georgia, 'Times New Roman', Times, serif;
+$sans: sans-serif;
+$display: 'OstrichSansBold', sans-serif;
+$display-sub: 'OstrichSansRoundedMedium', sans-serif;
+$font-body: $serif;
+$font-heading: $sans;
+
+//Colors ====================
+//main colors
+//derived from : https://kuler.adobe.com/Seaman-color-theme-3074592
+$highlight-color: #fff;
+$light-color: #fff;
+$light-alt-color: #fff;
+$dark-color: #fff;
+$important-color: #fff;
+$important-light-color: #fff;
+
+//link colors
+$link-color: $important-color;
+$visited-color: $important-light-color;

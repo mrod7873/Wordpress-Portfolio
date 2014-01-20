@@ -1,0 +1,35 @@
+/* 
+* 										*  
+*  Major Typography Styling  				*
+* 										*  
+*/
+body{
+	font-size:100%;
+	line-height: 1.5;
+	font-family: $font-body;
+	background-color: #82787D;
+}
+
+p{
+	margin-bottom: 1em;
+	color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: $font-heading;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+a, a:link{
+	text-decoration: none;
+	color: $link-color;
+}
+
+a:visited{
+	color: $visited-color;
+}
+
+a:hover{
+	border-bottom:1px solid $link-color;
+}
